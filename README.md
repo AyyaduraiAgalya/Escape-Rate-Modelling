@@ -1,8 +1,11 @@
 # Escape Rate in Expanding Maps  
 
 **Course:** Financial Data Science
+
 **Module:** Data Driven Methods
+
 **Result:** 100/100 — *"A brilliant piece of work,"* — Professor's comment
+
 **Tools:** Python, NumPy, Matplotlib, SVD, Linear Regression  
 
 ---
