@@ -16,12 +16,10 @@ This project explores how points “escape” from an expanding map of the unit 
 
 The system is defined by the one-parameter family of maps:  
 
-\[
-f_\beta(x) = \{\beta x\}, \quad \beta > 1
-\]
+f_β:(0,1)→(0,1), f_β :x→{βx}, β>1.
 
-where \(\{x\}\) denotes the fractional part of \(x\).  
-For a given hole \(H(c, h)\) inside the interval \((0, 1)\), the **escape rate** quantifies how quickly orbits fall into that hole under repeated iterations of the map.  
+where {βx} denotes the fractional part of x.  
+For a given hole H(c, h) inside the interval (0, 1), the **escape rate** quantifies how quickly orbits fall into that hole under repeated iterations of the map.  
 
 ---
 
@@ -29,18 +27,16 @@ For a given hole \(H(c, h)\) inside the interval \((0, 1)\), the **escape rate**
 
 To numerically and statistically **model the escape rate function**:  
 
-\[
-r_{\beta, c, h}(t)
-\]
+r_(β,c,h)(t)
 
-and study how it depends on the parameters \(\beta\), \(c\), and \(h\).  
+and study how it depends on the parameters β, c, h.  
 
 ---
 
 ## Methods  
 
 ### 1. Numerical Simulation  
-- Simulated orbits of \( N = 10^4 \) random initial points under \( f_\beta(x) \).  
+- Simulated orbits of  N = 10^4 random initial points under \( f_\beta(x) \).  
 - Measured how many points remained in \((0, 1)\) after \(t\) iterations to compute \(r_{\beta, c, h}(t)\).  
 
 ### 2. Polynomial (Gaussian) Approximation  
