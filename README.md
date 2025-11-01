@@ -54,7 +54,7 @@ and study how it depends on the parameters β, c, h.
 
 ---
 
-## ⚡ Floating-Point Precision Insight  
+## Floating-Point Precision Insight  
 
 In **Exercise 6.2.3**, for parameters β = 2, c = 0.5, h = 10⁴, a surprising behaviour appeared:  
 a sudden drop where nearly all points escaped between the **40th – 60th** iteration — precisely around the **52nd**.  
