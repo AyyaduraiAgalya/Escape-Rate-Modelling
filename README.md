@@ -108,6 +108,7 @@ It demonstrates how mathematical theory, numerical simulation, and statistical r
 
 ### Clone the repository
 git clone https://github.com/ayyaduraiagalya/Escape-Rate-Modelling.git
+
 cd Escape-Rate-Modelling
 
 ### Install Jupyter Notebook (if not already installed)
