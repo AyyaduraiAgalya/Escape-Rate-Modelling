@@ -36,21 +36,21 @@ and study how it depends on the parameters β, c, h.
 ## Methods  
 
 ### 1. Numerical Simulation  
-- Simulated orbits of  N = 10^4 random initial points under \( f_\beta(x) \).  
-- Measured how many points remained in \((0, 1)\) after \(t\) iterations to compute \(r_{\beta, c, h}(t)\).  
+- Simulated orbits of  N = 10^4 random initial points under  f_beta(x).  
+- Measured how many points remained in (0, 1) after t iterations to compute r_(β,c,h)(t).
 
 ### 2. Polynomial (Gaussian) Approximation  
-- Applied **polynomial regression** (degree ≤ 5) to approximate \(r_{\beta, c, h}(t)\).  
+- Applied **polynomial regression** (degree ≤ 5) to approximate r_(β,c,h)(t).
 - Implemented least-squares fitting using **normal equations** and **SVD** (`numpy.linalg.svd`).  
 
 ### 3. Linear Regression (Log Scale)  
-- Modelled \(\log(r_{\beta, c, h}(t)) = A + Bt\).  
-- Estimated the **escape rate** \(B\) as the slope of the fitted line.  
+- Modelled log(r_(β,c,h)(t)) = A + Bt.  
+- Estimated the **escape rate** B as the slope of the fitted line.  
 - Compared Gaussian and linear fits to evaluate approximation error.  
 
 ### 4. Parameter Experiments  
-- Varied \(\beta\), \(c\), and \(h\) to observe how escape behaviour changes with the position and size of the hole.  
-- Visualized how \(B(c)\) (escape rate vs hole position) evolves across multiple random configurations.  
+- Varied beta, c, and h to observe how escape behaviour changes with the position and size of the hole.  
+- Visualized how escape rate vs hole position evolves across multiple random configurations.  
 
 ---
 
@@ -77,8 +77,8 @@ This demonstrates how subtle numerical precision limits can create deterministic
 
 ## Results  
 
-- Successfully captured **exponential decay** of \(r_{\beta, c, h}(t)\) and validated the escape rate model.  
-- Observed strong dependence of escape rate on hole position \(c\).  
+- Successfully captured **exponential decay** of r_(β,c,h)(t) and validated the escape rate model.  
+- Observed strong dependence of escape rate on hole position c.  
 - Revealed precision-related artefacts for β = 2 and explained them mathematically.  
 - Implementations using both **normal equations** and **SVD** produced stable and consistent fits with minimal error.  
 
