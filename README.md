@@ -114,7 +114,7 @@ cd Escape-Rate-Modelling
 ### Install Jupyter Notebook (if not already installed)
 pip install notebook
 
-## Launch Jupyter Notebook
+### Launch Jupyter Notebook
 jupyter notebook
 
 ---
